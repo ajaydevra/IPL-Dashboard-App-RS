@@ -80,7 +80,12 @@ class TeamMatches extends Component {
     return (
       <>
         <div className="banner-container">
-          <img className="team-banner-style" src={teamBanner} alt={id} />
+          // <img className="team-banner-style" src={teamBanner} alt={id} />
+       <img
+            className="team-banner-style"
+            src={teamBanner}
+            alt="team banner" /*give team banner here */
+          />
         </div>
         <h1 className="heading-matches">Latest Matches</h1>
         <LatestMatch latestMatches={latestMatches} />
