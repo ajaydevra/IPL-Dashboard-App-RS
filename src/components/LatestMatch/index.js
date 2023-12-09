@@ -21,7 +21,7 @@ class LatestMatch extends Component {
     return (
       <div className="latest-match-container">
         <div className="competing-container">
-          <h1 className="competing-team">{competingTeam}</h1>
+          <p className="competing-team">{competingTeam}</p>
           <p>{date}</p>
           <p>{venue}</p>
           <p>{result}</p>
